@@ -1,0 +1,25 @@
+{
+  "name": "siyuan-caldav-sync",
+  "author": "byssssss",
+  "url": "https://github.com/byssssss/siyuan-caldav-sync",
+  "version": "0.1.0",
+  "minAppVersion": "2.10.14",
+  "backends": ["all"],
+  "frontends": ["all"],
+  "displayName": {
+    "default": "CalDAV 同步",
+    "zh_CN": "CalDAV 同步"
+  },
+  "description": {
+    "default": "Bi-directional sync between SiYuan Attribute View and CalDAV calendars",
+    "zh_CN": "思源笔记属性表与 CalDAV 日历双向同步"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh_CN": "README.md"
+  },
+  "funding": {
+    "custom": []
+  },
+  "keywords": ["caldav", "sync", "calendar"]
+}
