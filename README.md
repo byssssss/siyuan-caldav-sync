@@ -2,10 +2,7 @@
 
 将思源笔记属性表（Attribute View）与 CalDAV 日历进行双向同步，并提供可视化日历面板。
 
-<!-- 截图占位 -->
-<!--
-![日历面板截图](./screenshots/calendar-panel.png)
--->
+
 
 ## 功能亮点
 
@@ -51,10 +48,6 @@ pnpm build
 
 在思源笔记中新建一个属性表（Attribute View），用于存储日历事件数据。
 
-<!-- 截图占位 -->
-<!--
-![创建属性表](./screenshots/create-av.png)
--->
 
 ### 第二步：创建属性表列
 
@@ -71,10 +64,6 @@ pnpm build
 | 提醒 | 选择（select） | ❌ | 提醒规则，建议预设选项：无提醒、准点提醒、提前5分钟、提前15分钟、提前1小时、提前1天 |
 | 账户 | 选择（select） | ✅ | CalDAV 账户名（同步自动填充） |
 
-<!-- 截图占位 -->
-<!--
-![查看列ID](./screenshots/column-id.png)
--->
 
 ### 第三步：配置插件
 
@@ -83,10 +72,6 @@ pnpm build
 3. 填写各 **列 ID 映射**
 4. 可选填写 **视图 ID**（锁定视图，防止切换视图导致同步误删）
 
-<!-- 截图占位 -->
-<!--
-![设置面板-基础配置](./screenshots/settings-basic.png)
--->
 
 ### 第四步：添加 CalDAV 账户
 
@@ -98,10 +83,6 @@ pnpm build
    - **密码**：CalDAV 登录密码
 3. 点击 **测试连接** 确认可用
 
-<!-- 截图占位 -->
-<!--
-![添加账户](./screenshots/add-account.png)
--->
 
 ### 第五步：保存并启动同步
 
@@ -168,10 +149,6 @@ pnpm build
 
 通过顶栏图标或同步状态面板的"打开日历"按钮进入。
 
-<!-- 截图占位 -->
-<!--
-![日历面板-月视图](./screenshots/calendar-month.png)
--->
 
 #### 月视图
 
@@ -181,11 +158,6 @@ pnpm build
 - 切换月份或选中日期变化时自动折叠
 - 点击标题可切换到年视图
 
-<!-- 截图占位 -->
-<!--
-![月视图-折叠](./screenshots/month-collapsed.png)
-![月视图-展开](./screenshots/month-expanded.png)
--->
 
 #### 日视图
 
@@ -194,10 +166,6 @@ pnpm build
 - 事件行内显示账户颜色圆点标识
 - 点击标题可切换到月视图
 
-<!-- 截图占位 -->
-<!--
-![日视图](./screenshots/calendar-day.png)
--->
 
 #### 年视图
 
@@ -207,10 +175,6 @@ pnpm build
 - 当前月份蓝色边框 + 渐变高亮
 - 点击某月卡片切换到月视图
 
-<!-- 截图占位 -->
-<!--
-![年视图](./screenshots/calendar-year.png)
--->
 
 #### 事件列表
 
@@ -218,10 +182,6 @@ pnpm build
 - 每个事件前有账户颜色圆点标识
 - 多账户事件一目了然
 
-<!-- 截图占位 -->
-<!--
-![事件列表](./screenshots/event-list.png)
--->
 
 #### 自适应布局
 
@@ -243,10 +203,6 @@ pnpm build
 
 ### 3. 设置面板
 
-<!-- 截图占位 -->
-<!--
-![设置面板](./screenshots/settings-full.png)
--->
 
 #### 基础配置
 
@@ -277,10 +233,6 @@ pnpm build
 
 ### 4. 同步状态面板
 
-<!-- 截图占位 -->
-<!--
-![同步状态面板](./screenshots/sync-status.png)
--->
 
 | 信息 | 说明 |
 |------|------|
@@ -424,9 +376,3 @@ pnpm dev         # 开发模式（监听文件变化）
 2. 重启思源笔记
 3. 打开开发者工具（`Ctrl+Shift+I`）查看控制台日志
 4. 同步引擎的日志前缀为 `[CalDAV Sync]`
-
----
-
-## 许可证
-
-MIT License
